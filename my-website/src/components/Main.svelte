@@ -10,17 +10,18 @@
             href: "https://ideahacks.la",
         },
         {
-            name: "Emoji GAN",
-            icon: "fa-solid fa-face-smile",
+            name: "SafeAlert Mobile App",
+            icon: "fa-solid fa-mobile-android",
             description:
-                "A Generative Adversarial Network (GAN) that generates emojis based on a dataset of emojis.",
-            href: "https://colab.research.google.com/drive/127FNYAl-Is-ZQdqoQ4ZWpsfP2_yeOfKu?usp=sharing",
+                "A mobile app created with Flutter and Firebase that allows users to quickly and discreetly alert trusted contacts and/or emergency services if they are in danger.",
+            href: "https://github.com/tranbrandon1233/SafeAlert",
         },
         {
             name: "Natural Language Processing Sarcasm Detector",
             icon: "fa-solid fa-diagram-project",
             description:
                 "A Natural Language Processing (NLP) model that detects sarcasm in text using a dataset of sarcastic and non-sarcastic IMDB movie reviews.",
+            href: "https://colab.research.google.com/drive/1aJKxvTSta6jLYvpwoXHevKpeXM70A6-T?usp=sharing",
         },
     ];
 
@@ -60,8 +61,8 @@
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
                 My <span class="text-violet-400"> favorite tech</span> includes
-                JavaScript (React, NEXT.JS, or SvelteKit), TailwindCSS, <br /> Node.js
-                + Express.js & PostgreSQL, Supabase or Firebase/Firestore!
+                JavaScript (React or NEXT.JS), Flutter, SvelteKit,<br /> TailwindCSS,
+                Node.js + Express.js & PostgreSQL, Supabase or Firebase/Firestore!
             </p>
             <button
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
@@ -119,9 +120,10 @@
             </Step>
             <Step step={steps[1]}>
                 <p>
-                    The Emoji GAN is implemented using <strong
-                        class="text-violet-400">PyTorch</strong
-                    > and generates new emojis based on a dataset of emojis.
+                    The SafeAlert mobile app was implemented using <strong
+                        class="text-violet-400">Flutter and Firebase</strong
+                    > and allows users to quickly and discreetly alert trusted contacts
+                    and/or emergency services if they are in danger.
                 </p>
             </Step>
             <Step step={steps[2]}>
