@@ -61,8 +61,9 @@
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
                 My <span class="text-violet-400"> favorite tech</span> includes
-                JavaScript (React or NEXT.JS), Flutter, SvelteKit,<br /> TailwindCSS,
-                Node.js + Express.js & PostgreSQL, Supabase or Firebase/Firestore!
+                JavaScript (React or NEXT.JS), Flutter, SvelteKit,<br />
+                TailwindCSS, Node.js + Express.js & PostgreSQL, Supabase or
+                <br /> Firebase/Firestore!
             </p>
             <button
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
