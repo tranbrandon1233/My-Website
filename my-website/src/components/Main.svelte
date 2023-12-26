@@ -17,10 +17,10 @@
             href: "https://github.com/tranbrandon1233/SafeAlert",
         },
         {
-            name: "Natural Language Processing Sarcasm Detector",
+            name: "Natural Language Processing Tone Detector",
             icon: "fa-solid fa-diagram-project",
             description:
-                "A Natural Language Processing (NLP) model that detects sarcasm in text using a dataset of sarcastic and non-sarcastic IMDB movie reviews.",
+                "A Natural Language Processing (NLP) model that detects tone in text using a dataset of positive and negative IMDB movie reviews.",
             href: "https://colab.research.google.com/drive/1aJKxvTSta6jLYvpwoXHevKpeXM70A6-T?usp=sharing",
         },
     ];
@@ -128,10 +128,10 @@
             </Step>
             <Step step={steps[2]}>
                 <p>
-                    The NLP sarcasm detector is a recurrent neural netowork,
+                    The NLP tone detector is a recurrent neural netowork,
                     created with
-                    <strong class="text-violet-400">PyTorch</strong>, that
-                    detects sarcasm in text.
+                    <strong class="text-violet-400">PyTorch</strong> using a bag
+                    of words classification model, that detects tone in text.
                 </p>
             </Step>
         </div>
