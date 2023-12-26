@@ -62,7 +62,7 @@
             <p class="text-base sm:text-lg md:text-xl">
                 My <span class="text-violet-400"> favorite tech</span> includes
                 JavaScript (React or NEXT.JS), Flutter, SvelteKit,<br />
-                TailwindCSS, Node.js + Express.js & PostgreSQL, Supabase or
+                TailwindCSS, Node.js + Express.js & PostgreSQL, Supabase, or
                 <br /> Firebase/Firestore!
             </p>
             <button
