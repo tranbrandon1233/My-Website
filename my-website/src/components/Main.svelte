@@ -57,7 +57,7 @@
                 Hi! I'm <span class="poppins text-violet-400">Brandon Tran</span
                 >
                 <br />Full Stack
-                <span class="poppins text-violet-400">Devoper</span>
+                <span class="poppins text-violet-400">Developer</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
                 My <span class="text-violet-400"> favorite tech</span> includes
