@@ -16,7 +16,7 @@
             : " py-6 bg-transparent border-transparent")}
 >
     <h1 class="font-medium">
-        <b class="font-bold poppins">Brandon</b> <span class="">Tran</span>
+        <b class="font-bold poppins">Brandon Tran</b>
     </h1>
     <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
