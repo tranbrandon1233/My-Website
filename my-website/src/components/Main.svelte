@@ -33,7 +33,7 @@
                 "I have been learning programming since I was 12 and have not stopped since then because I absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include front-end frameworks like React, Flutter, and Svelte (which this website is programmed in!), backend programming with Firebase, Supabase, and MongoDB, design with UI/UX, cloud services like Amazon Web Services and Microsoft Azure, and much much more.",
         },
         {
-            name: "a product design & UX finatic",
+            name: "a product design & UX fanatic",
             description:
                 "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
         },
