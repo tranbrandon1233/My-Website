@@ -35,12 +35,12 @@
         {
             name: "a product design & UX fanatic",
             description:
-                "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
+                "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences. From websites like this one to mobile apps like SafeAlert, I have all the skills to create a appealing designs that users will love and enjoy using.",
         },
         {
             name: "an excellent communicator",
             description:
-                "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
+                "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team. As the leader of research papers and many projects, I have learned to communicate effectively and efficiently with my team members to ensure that we are all on the same page and that we are all working towards the same goal.",
         },
     ];
 </script>
