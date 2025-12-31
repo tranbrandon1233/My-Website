@@ -3,11 +3,30 @@
 
     let steps = [
         {
-            name: "IDEAHacks Website",
+            name: "LeetClone Website",
             icon: "fa-brands fa-dev",
             description:
-                "A full-stack web application for the 2024 IDEAHacks hackathon at UCLA.",
-            href: "https://ideahacks.la",
+                "A full-stack website based on LeetCode that displays coding problems and allows users to log in, reset the password, select questions to answer, create and test code, and like, dislike, and favorite questions.",
+            href: "https://leetclone.vercel.app",
+        },
+        {
+            name: "Virtual Reality Physical Therapy With Gemini LLM Assistant",
+            icon: "fa-solid fa-vr-cardboard",
+            description: "A virtual reality physical therapy system that uses a Gemini LLM assistant to guide users through physical therapy exercises.",
+            href: "https://github.com/tranbrandon1233/VR-Physical-Therapy-Project/tree/main",
+        },
+        {
+            name: "Talking Terry: Hands-Free LLM Phone Assistant",
+            icon: "fa-solid fa-mobile-android",
+            description: "A hands-free phone that can answer any question powered by GPT-4, LangChain, and APIs from SerpAPI, Yelp, Twilio, and more!",
+            href: "https://github.com/tranbrandon1233/TalkingTerry",
+        },
+        {
+            name: "Chatemis: RAG-based Conversational AI Agent",
+            icon: "fa-solid fa-robot",
+            description:
+                "A RAG-based conversational AI agent that utilizes a low-latency LLM implementation on Nvidia Jetson Orin with ollama, retrieval-augmented generation with LangChain, speech-to-text with OpenAI Whisper, and text-to-speech with pyttsx for verbal question-answering robot",
+            href: "https://github.com/TheNewRobot/chatemis",
         },
         {
             name: "SafeAlert Mobile App",
@@ -16,6 +35,13 @@
                 "A mobile app created with Flutter and Firebase that allows users to quickly and discreetly alert trusted contacts and/or emergency services if they are in danger.",
             href: "https://github.com/tranbrandon1233/SafeAlert",
         },
+        {
+            name: "RF-DETR Automated Image Labeling Pipeline",
+            icon: "fa-solid fa-image",
+            description:
+                "An automated image labeling system using RF-DETR establishing a fine-tuning pipeline with Google Colab to label images to be used for training YOLO computer vision model of UCLA RoMeLa's ARTEMIS robot for the 2025 RoboCup competition",            href: "hhttps://colab.research.google.com/drive/1EO1Eoo9OUITF5HlGXkAp_hta9Ip-3xAe?usp=sharing",
+            href: "https://colab.research.google.com/drive/1EO1Eoo9OUITF5HlGXkAp_hta9Ip-3xAe?usp=sharing",
+            },
         {
             name: "Natural Language Processing Tone Detector",
             icon: "fa-solid fa-diagram-project",
@@ -112,30 +138,56 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
-                    The 2024 IDEAHacks website is a full-stack web application
-                    created with <strong class="text-violet-400"
-                        >SvelteKit and Supabase</strong
-                    > and allows users to view information about IDEAHacks, create
-                    accounts, login, and apply to join the Hackathon.
+                    A full-stack clone of the LeetCode website created with <strong class="text-violet-400">
+                        TypeScript, Tailwinds CSS, React Icons, Toastify, Recoil, Split, CodeMirror, Next.js, and Firebase
+                        </strong> 
+                        that displays coding problems and allows users to log in, reset the password, select questions to answer, create and test code, and like, dislike, and favorite questions.
+
                 </p>
             </Step>
             <Step step={steps[1]}>
                 <p>
-                    The SafeAlert mobile app was implemented using <strong
-                        class="text-violet-400">Flutter and Firebase</strong
-                    > and allows users to quickly and discreetly alert trusted contacts
-                    and/or emergency services if they are in danger.
+                    A virtual reality physical therapy system that uses a Gemini LLM assistant to guide users through physical therapy exercises created with <strong class="text-violet-400">
+                        Python, OpenAI, and PyTorch</strong> that allows users to select exercises and track their progress.
                 </p>
             </Step>
             <Step step={steps[2]}>
                 <p>
-                    The NLP tone detector is a recurrent neural netowork,
-                    created with
-                    <strong class="text-violet-400">PyTorch</strong> using a bag
-                    of words classification model, that detects tone in text.
+                    A hands-free phone that can answer any question powered by <strong class="text-violet-400">
+                        GPT-4, LangChain, and APIs from SerpAPI, Yelp, Twilio</strong>, and more!
                 </p>
             </Step>
-        </div>
+                <Step step={steps[3]}>
+                <p>
+                    A RAG-based conversational AI agent that utilizes a low-latency LLM implementation on Nvidia Jetson Orin with 
+                    <strong class="text-violet-400">
+                        ollama</strong>, retrieval-augmented generation with <strong class="text-violet-400">
+                        LangChain</strong>, speech-to-text with <strong class="text-violet-400">
+                        OpenAI Whisper</strong>, and text-to-speech with <strong class="text-violet-400">
+                        pyttsx</strong> for verbal question-answering robots.
+                </p>
+            </Step>
+            <Step step={steps[4]}>
+                <p>
+                    A mobile app created with <strong class="text-violet-400">
+                        Flutter and Firebase</strong> that allows users to quickly and discreetly alert trusted contacts and/or emergency services if they are in danger.
+                </p>
+            </Step>
+            <Step step={steps[5]}>
+                <p>
+                    An automated image labeling system using <strong class="text-violet-400">
+                        RF-DETR</strong> establishing a fine-tuning pipeline with Google Colab to label images to be used for training <strong class="text-violet-400">
+                        YOLO</strong> computer vision model of UCLA RoMeLa's ARTEMIS robot for the 2025 RoboCup competition created with <strong class="text-violet-400">
+                        Python, PyTorch, and Google Colab</strong>.
+                </p>
+            </Step>
+            <Step step={steps[6]}>
+                <p>
+                    A Natural Language Processing (NLP) model that detects tone in text using a dataset of positive and negative IMDB movie reviews using <strong class="text-violet-400">
+                        PyTorch, Pandas, and Scikit-learn</strong>.
+                </p>
+            </Step>
+            </div>
     </section>
     <section
         id="about"
