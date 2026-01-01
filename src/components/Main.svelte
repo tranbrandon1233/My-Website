@@ -77,7 +77,7 @@
         class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14"
     >
         <div
-            class="flex flex-col lg:justify-center text-center lg:text-left gap-6 w-screen md:gap-8 lg:gap-10"
+            class="flex flex-col lg:justify-center text-center lg:text-left gap-6 w-full md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl w-full sm:text-5xl md:text-6xl">
                 Hi! I'm <span class="poppins text-violet-400">Brandon Tran</span
@@ -135,7 +135,7 @@
             </h3>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10 mx-auto justify-center">
             <Step step={steps[0]}>
                 <p>
                     A full-stack clone of the LeetCode website created with <strong class="text-violet-400">
@@ -181,12 +181,14 @@
                         Python, PyTorch, and Google Colab</strong>.
                 </p>
             </Step>
+            <div class="lg:col-start-2">
             <Step step={steps[6]}>
                 <p>
                     A Natural Language Processing (NLP) model that detects tone in text using a dataset of positive and negative IMDB movie reviews using <strong class="text-violet-400">
                         PyTorch, Pandas, and Scikit-learn</strong>.
                 </p>
             </Step>
+            </div>
             </div>
     </section>
     <section
