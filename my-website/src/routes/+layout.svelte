@@ -7,7 +7,9 @@
     let innerHeight = 0;
 
     function goTop() {
-        document.body.scrollIntoView();
+        if (typeof document !== 'undefined') {
+            document.body.scrollIntoView();
+        }
     }
 </script>
 

@@ -39,9 +39,9 @@
             name: "RF-DETR Automated Image Labeling Pipeline",
             icon: "fa-solid fa-image",
             description:
-                "An automated image labeling system using RF-DETR establishing a fine-tuning pipeline with Google Colab to label images to be used for training YOLO computer vision model of UCLA RoMeLa's ARTEMIS robot for the 2025 RoboCup competition",            href: "hhttps://colab.research.google.com/drive/1EO1Eoo9OUITF5HlGXkAp_hta9Ip-3xAe?usp=sharing",
+                "An automated image labeling system using RF-DETR establishing a fine-tuning pipeline with Google Colab to label images to be used for training YOLO computer vision model of UCLA RoMeLa's ARTEMIS robot for the 2025 RoboCup competition",
             href: "https://colab.research.google.com/drive/1EO1Eoo9OUITF5HlGXkAp_hta9Ip-3xAe?usp=sharing",
-            },
+        },
         {
             name: "Natural Language Processing Tone Detector",
             icon: "fa-solid fa-diagram-project",
