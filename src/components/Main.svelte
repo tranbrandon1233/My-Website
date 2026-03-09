@@ -39,9 +39,9 @@
             name: "RF-DETR Automated Image Labeling Pipeline",
             icon: "fa-solid fa-image",
             description:
-                "An automated image labeling system using RF-DETR establishing a fine-tuning pipeline with Google Colab to label images to be used for training YOLO computer vision model of UCLA RoMeLa's ARTEMIS robot for the 2025 RoboCup competition",
+                "An automated image labeling system using RF-DETR establishing a fine-tuning pipeline with Google Colab to label images to be used for training YOLO computer vision model of UCLA RoMeLa's ARTEMIS robot for the 2025 RoboCup competition",            href: "hhttps://colab.research.google.com/drive/1EO1Eoo9OUITF5HlGXkAp_hta9Ip-3xAe?usp=sharing",
             href: "https://colab.research.google.com/drive/1EO1Eoo9OUITF5HlGXkAp_hta9Ip-3xAe?usp=sharing",
-        },
+            },
         {
             name: "Natural Language Processing Tone Detector",
             icon: "fa-solid fa-diagram-project",
@@ -49,6 +49,12 @@
                 "A Natural Language Processing (NLP) model that detects tone in text using a dataset of positive and negative IMDB movie reviews.",
             href: "https://colab.research.google.com/drive/1aJKxvTSta6jLYvpwoXHevKpeXM70A6-T?usp=sharing",
         },
+        {
+            name: "Fixated Dashboard Website",
+            icon: "fa-solid fa-chart-line",
+            description: "The official dashboard website for Fixated that allows users to view and analyze data from their Youtube and X/Twitter accounts using React, TailwindCSS, and Vite.",
+            href: "https://github.com/tranbrandon1233/Fixated/tree/vercel",
+        }
     ];
 
     let benefits = [
@@ -77,7 +83,7 @@
         class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14"
     >
         <div
-            class="flex flex-col lg:justify-center text-center lg:text-left gap-6 w-full md:gap-8 lg:gap-10"
+            class="flex flex-col lg:justify-center text-center lg:text-left gap-6 w-screen md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl w-full sm:text-5xl md:text-6xl">
                 Hi! I'm <span class="poppins text-violet-400">Brandon Tran</span
@@ -135,7 +141,7 @@
             </h3>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10 mx-auto justify-center">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
                     A full-stack clone of the LeetCode website created with <strong class="text-violet-400">
@@ -181,14 +187,18 @@
                         Python, PyTorch, and Google Colab</strong>.
                 </p>
             </Step>
-            <div class="lg:col-start-2">
             <Step step={steps[6]}>
                 <p>
                     A Natural Language Processing (NLP) model that detects tone in text using a dataset of positive and negative IMDB movie reviews using <strong class="text-violet-400">
                         PyTorch, Pandas, and Scikit-learn</strong>.
                 </p>
             </Step>
-            </div>
+            <Step step={steps[7]}>
+                <p>
+                    The official dashboard website for Fixated that allows users to view and analyze data from their Youtube and X/Twitter accounts using <strong class="text-violet-400">
+                        React, TailwindCSS, and Vite</strong> for a dashboard that displays data in a visually appealing and easy to understand way.
+                </p>
+            </Step>
             </div>
     </section>
     <section
