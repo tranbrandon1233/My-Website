@@ -54,6 +54,12 @@
             icon: "fa-solid fa-chart-line",
             description: "The official dashboard website for Fixated that allows users to view and analyze data from their Youtube and X/Twitter accounts using React, TailwindCSS, and Vite.",
             href: "https://github.com/tranbrandon1233/Fixated/tree/vercel",
+        },
+        {
+            name: "AIStyleFit Website",
+            icon: "fa-solid fa-shirt",
+            description: "End-to-end clothes customization platform with built-in AI try-on options.",
+            href: "https://www.aistylefit.com/"
         }
     ];
 
@@ -94,7 +100,7 @@
             <p class="text-base sm:text-lg md:text-xl">
                 My <span class="text-violet-400"> favorite tech</span> includes
                 JavaScript (React or NEXT.JS), Flutter, SvelteKit,<br />
-                TailwindCSS, Node.js + Express.js & PostgreSQL, Supabase, or
+                TailwindCSS, Node.js + Express.js & PostgreSQL, AWS, Supabase, or
                 <br /> Firebase!
             </p>
             <button
@@ -197,6 +203,11 @@
                 <p>
                     The official dashboard website for Fixated that allows users to view and analyze data from their Youtube and X/Twitter accounts using <strong class="text-violet-400">
                         React, TailwindCSS, and Vite</strong> for a dashboard that displays data in a visually appealing and easy to understand way.
+                </p>
+            </Step>
+            <Step step={steps[8]}>
+                <p>
+                End-to-end clothes customization platform with built-in AI try-on options. Built with <strong class="text-violet-400">TypeScript, TailwindCSS, React, Express, and AWS RDS, S3, Lambda, Amplify, Route 53, and more</strong>.
                 </p>
             </Step>
             </div>

@@ -3,7 +3,7 @@
 
     export let tabs = [
         { name: "Projects ", link: "#projects" },
-        { name: "About me", link: "#about" },
+        { name: "About Me", link: "#about" },
 
     ];
 </script>
