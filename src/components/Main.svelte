@@ -68,7 +68,7 @@
             metric: "10x",
             name: "an expert developer",
             description:
-                "I have been learning programming since I was 12 and have not stopped since then because I absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting off with JavaScript, HTML & CSS and evolving my knowledge base to include front-end frameworks like React, Flutter, and Svelte (which this website is programmed in!), backend programming with Firebase, Supabase, and MongoDB, design with UI/UX, cloud services like Amazon Web Services and Microsoft Azure, and much much more.",
+                "I have been learning programming since I was 12 and have not stopped since then because I absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting off with JavaScript, HTML & CSS and evolving my knowledge base to include front-end frameworks like React, Flutter, and Svelte (which this website is programmed in!), backend engineering with Firebase, Supabase, and MongoDB, design with UI/UX, cloud services like Amazon Web Services and Microsoft Azure, and much much more.",
         },
         {
             name: "a product design & UX fanatic",
