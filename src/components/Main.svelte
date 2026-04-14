@@ -53,7 +53,7 @@
             name: "Fixated Dashboard Website",
             icon: "fa-solid fa-chart-line",
             description: "The official dashboard website for Fixated that allows users to view and analyze data from their Youtube and X/Twitter accounts using React, TailwindCSS, and Vite.",
-            href: "https://github.com/tranbrandon1233/Fixated/tree/vercel",
+            href: "https://fixated-dashboard.netlify.app",
         },
         {
             name: "AIStyleFit Website",
@@ -68,7 +68,7 @@
             metric: "10x",
             name: "an expert developer",
             description:
-                "I have been learning programming since I was 12 and have not stopped since then because I absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include front-end frameworks like React, Flutter, and Svelte (which this website is programmed in!), backend programming with Firebase, Supabase, and MongoDB, design with UI/UX, cloud services like Amazon Web Services and Microsoft Azure, and much much more.",
+                "I have been learning programming since I was 12 and have not stopped since then because I absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting off with JavaScript, HTML & CSS and evolving my knowledge base to include front-end frameworks like React, Flutter, and Svelte (which this website is programmed in!), backend programming with Firebase, Supabase, and MongoDB, design with UI/UX, cloud services like Amazon Web Services and Microsoft Azure, and much much more.",
         },
         {
             name: "a product design & UX fanatic",
