@@ -207,7 +207,7 @@
             </Step>
             <Step step={steps[8]}>
                 <p>
-                End-to-end clothes customization platform with built-in AI try-on options. Built with <strong class="text-violet-400">TypeScript, TailwindCSS, React, Express, and AWS RDS, S3, Lambda, Amplify, Route 53, and more</strong>.
+                End-to-end clothes customization e-commerce platform with built-in AI try-on image and video generation options. Built with <strong class="text-violet-400">TypeScript, TailwindCSS, React, Express, and AWS RDS, S3, Lambda, Amplify, Route 53, and more</strong>.
                 </p>
             </Step>
             </div>
