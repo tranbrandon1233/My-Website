@@ -58,7 +58,7 @@
         {
             name: "VADAURO Website",
             icon: "fa-solid fa-shirt",
-            description: "End-to-end clothes customization platform with built-in AI try-on options.",
+            description: "End-to-end clothes customization e-commerce platform with built-in AI try-on image and video generation options.",
             href: "https://www.vadauro.com/"
         }
     ];
