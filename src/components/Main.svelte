@@ -56,10 +56,10 @@
             href: "https://fixated-dashboard.netlify.app",
         },
         {
-            name: "AIStyleFit Website",
+            name: "VADAURO Website",
             icon: "fa-solid fa-shirt",
             description: "End-to-end clothes customization platform with built-in AI try-on options.",
-            href: "https://www.aistylefit.com/"
+            href: "https://www.vadauro.com/"
         }
     ];
 
