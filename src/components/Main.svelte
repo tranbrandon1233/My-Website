@@ -213,6 +213,35 @@
             </div>
     </section>
     <section
+        id="resume"
+        class="py-20 lg:py-32 flex flex-col gap-8 sm:gap-10"
+        aria-labelledby="resume-heading"
+    >
+        <div class="flex flex-col gap-2 text-center">
+            <h6 class="text-large sm:text-xl md:text-2xl">My experience</h6>
+            <h2 id="resume-heading" class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+                My <span class="poppins text-violet-400">resume</span>.
+            </h2>
+        </div>
+        <div class="mx-auto w-full max-w-[900px] overflow-hidden rounded-lg border border-violet-700/40 bg-white shadow-xl">
+            <iframe
+                src="https://docs.google.com/document/d/1br6PVFn_Aopwe-aY0QZE_BbPsVxGYNW2/preview?embedded=true"
+                title="Resume"
+                class="h-[620px] w-full sm:h-[760px]"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+            ></iframe>
+        </div>
+        <a
+            class="mx-auto text-center text-violet-400 underline underline-offset-4 hover:text-violet-300"
+            href="https://docs.google.com/document/d/1br6PVFn_Aopwe-aY0QZE_BbPsVxGYNW2/edit?usp=sharing&ouid=112358100894503855820&rtpof=true&sd=true"
+            target="_blank"
+            rel="noreferrer"
+        >
+            Open my resume in a new tab
+        </a>
+    </section>
+    <section
         id="about"
         class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
     >
